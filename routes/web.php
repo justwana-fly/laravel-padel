@@ -14,3 +14,5 @@ use App\Http\Controllers\FieldsController;
 */
 
 Route::get('/', [FieldsController::class, 'index'])->name('home');
+
+
